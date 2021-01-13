@@ -1,3 +1,25 @@
+*{
+  background-color: black;
+}
+
+h1{
+  color: white;
+  border-left: mediumspringgreen;
+  border-bottom: cyan;
+  border-top: tomato;
+  border-right: indigo;
+  border-style: solid;
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 5%;
+  
+}
+
+button{
+  background-color: white;
+  padding: 10px;
+}
+
 .App {
   text-align: center;
 }

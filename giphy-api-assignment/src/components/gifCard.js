@@ -40,7 +40,7 @@ class GifCard extends Component {
     render(){
     return (
         <div>
-            <h1>This is the gifCard Component</h1>
+            <h1>Gif<br></br> Radomizer</h1>
             <br></br>
             <button onClick={this.randomGif}>Generate a Random Gif!</button>
             <br></br><br></br>
