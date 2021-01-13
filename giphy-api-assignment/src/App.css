@@ -10,4 +10,9 @@
 .gifDisplay{
   height: 250px;
   width: 250px;
+  margin-right: 10px;
+}
+
+.display{
+  display: inline-flex;
 }

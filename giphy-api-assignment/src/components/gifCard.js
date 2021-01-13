@@ -32,17 +32,22 @@ class GifCard extends Component {
         console.log(this.state.gifURL);
     }
 
+    gifByKeyword = async () => {
+
+    }
+
+
     render(){
     return (
         <div>
             <h1>This is the gifCard Component</h1>
             <br></br>
-            {/* This will be a map of all gifs to display */}
             <button onClick={this.randomGif}>Generate a Random Gif!</button>
             <br></br><br></br>
                 <div>
                     <img className='gifDisplay' src ={this.state.gifURL.image_url} alt = 'gif'/>
                 </div>
+            {/* This will be a map of all gifs to display */}
         </div>
     )
 }
